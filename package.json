@@ -4,13 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "ts-node realapp.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "dependencies": {},
+  "optionalDependencies": {
     "chip-io": "^2.1.1",
     "johnny-five": "^0.14.1"
+  },
+  "devDependencies": {
+    "@types/johnny-five": "0.0.34",
+    "@types/node": "^9.4.6",
+    "ts-node": "^5.0.1",
+    "typescript": "^2.7.2"
   }
 }
