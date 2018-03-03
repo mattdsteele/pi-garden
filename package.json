@@ -1,0 +1,16 @@
+{
+  "name": "readfile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chip-io": "^2.1.1",
+    "johnny-five": "^0.14.1"
+  }
+}
