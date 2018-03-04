@@ -1,4 +1,4 @@
-import { Board, Pin } from "johnny-five";
+import { Board, Pin } from 'johnny-five';
 
 const five = require('johnny-five');
 const chip = require('chip-io');
