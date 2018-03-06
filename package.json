@@ -10,7 +10,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "particle-api-js": "^7.1.1"
+  },
   "optionalDependencies": {
     "chip-io": "^2.1.1",
     "johnny-five": "^0.14.1"
