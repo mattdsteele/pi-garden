@@ -22,5 +22,4 @@ export const insert = async (sensorType: string, value: number) => {
       type: sensorType
     }
   }])
-
 }

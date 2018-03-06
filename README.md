@@ -2,5 +2,4 @@
 
 ## Notes
 
-* [DHT11 on CHIP](https://bbs.nextthing.co/t/reading-dht11-dht22-am2302-sensors/2383/78)
-* [Archived DHT11 files](dht11.zip)
+* [Photon Arduino code](https://go.particle.io/shared_apps/5a9e15a9da1aeecbb10012d8)
