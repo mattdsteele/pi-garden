@@ -1,2 +1,1 @@
-require('./soil');
-require('./app');
+import './app';

@@ -11,7 +11,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "particle-api-js": "^7.1.1"
+    "influx": "^5.0.7",
+    "particle-api-js": "^7.1.1",
+    "rxjs": "^6.0.0-alpha.3"
   },
   "optionalDependencies": {
     "chip-io": "^2.1.1",
