@@ -6,6 +6,11 @@ sensors.soil$.do(measurement => {
   insert('soil', measurement.value);
 }).subscribe();
 
+sensors.analogSoil$.do(measurement => {
+  console.log(`analogSoil ${measurement.value}`);
+  insert('analogSoil', measurement.value);
+}).subscribe();
+
 sensors.humidity$.do(m => {
   console.log(`humidity ${m.value}`);
   insert('humidity', m.value);

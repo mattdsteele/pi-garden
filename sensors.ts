@@ -19,5 +19,6 @@ const stream = (eventName: string) => {
 }
 
 export const soil$ = stream('soilMoisture');
+export const analogSoil$ = stream('analogSoilMoisture');
 export const temp$ = stream('temp');
 export const humidity$ = stream('humidity');
